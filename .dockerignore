@@ -1,0 +1,7 @@
+node_modules
+build
+.git
+.gitignore
+presentation.md
+tasks
+README.md
