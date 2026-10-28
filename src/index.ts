@@ -10,7 +10,7 @@ import { z } from "zod";
 
 const server = new Server(
   {
-    name: "aluvio-mcp-server",
+    name: "mcp-outils-metier",
     version: "1.0.0",
   },
   {
@@ -126,7 +126,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 async function run() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error("Aluvio MCP Server running on stdio");
+  console.error("mcp-outils-metier : serveur MCP à l'écoute sur stdio");
 }
 
 run().catch(console.error);
