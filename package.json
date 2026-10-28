@@ -1,7 +1,7 @@
 {
-  "name": "aluvio-mcp-server",
+  "name": "mcp-outils-metier",
   "version": "1.0.0",
-  "description": "Aluvio MCP Server for Automations",
+  "description": "Serveur MCP de démonstration : trois outils métier simulés pour Claude",
   "main": "build/index.js",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "start": "node build/index.js",
     "dev": "tsx watch src/index.ts"
   },
-  "keywords": ["mcp", "aluvio", "coda", "automation"],
+  "keywords": ["mcp", "claude", "coda", "automation"],
   "author": "Valentin Périès",
   "license": "ISC",
   "dependencies": {
